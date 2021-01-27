@@ -2,6 +2,7 @@
 
 ?>
 
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -58,7 +59,7 @@
                 <a href="#2" class="nav__link">О компании</a>
                 <a href="#3" class="nav__link">Услуги</a>
                 <a href="" class="nav__link">Сертификаты и Отзывы</a>
-                <a href="" class="nav__link">Контакты</a>
+                <a href="#5" class="nav__link">Контакты</a>
             </nav>
         </div>
     </header>
@@ -104,6 +105,13 @@
     </div>
     <!-- target  -->
     <div class="target">
+        <div class="target__bgcircle target__bgcircle1"></div>
+        <div class="target__bgcircle target__bgcircle2"></div>
+        <div class="target__bgcircle target__bgcircle3"></div>
+        <div class="target__bgcircle target__bgcircle4"></div>
+        <div class="target__bgcircle target__bgcircle5"></div>
+        <div class="target__bgcircle target__bgcircle6"></div>
+        <div class="target__bgcircle target__bgcircle7"></div>
         <div class="container target__body">
             <div class="target__block">
                 <div class="targetimg__body">
@@ -221,7 +229,7 @@
             </form>
         </div>
         <!-- Footer  -->
-        <footer class="footer">
+        <footer class="footer" id="5">
             <div class="footer__body">
                 <div class="footer__block1">
                     <div class="foot_logo">
@@ -274,7 +282,7 @@
                         </div>
                         <div class="footnav_2">
                             <a href="" class="gray_span footer__contact_span footer__nav_link">Сертификаты</a>
-                            <a href="" class="gray_span footer__contact_span footer__nav_link">Контакты</a>
+                            <a href="#5" class="gray_span footer__contact_span footer__nav_link">Контакты</a>
                         </div>
                     </nav>
                 </div>
