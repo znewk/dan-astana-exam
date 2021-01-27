@@ -1,0 +1,25 @@
+.intro_app{
+    background-image: url("../img/app_intro.png");
+    background-size: cover;
+    width: 100%;
+}
+.app__docs{
+    display: flex;
+    justify-content: space-around;
+}
+.app_download{
+    padding: 5px 30px;
+    background: #14BDEE;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 3%;
+}
+.app_download:hover{
+    text-decoration: none;
+    color: white;
+}
+.app_introbutton{
+    margin-top: 5%;
+}

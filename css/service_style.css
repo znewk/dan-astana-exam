@@ -1,0 +1,11 @@
+.service__blocks{
+    flex-wrap: wrap;
+}
+.service__title{
+    color: #474F64;
+    font-weight: bold;
+    font-size: 18px;
+}
+.service__paragraph{
+    font-size: 16px;
+}

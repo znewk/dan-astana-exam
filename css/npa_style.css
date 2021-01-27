@@ -1,0 +1,54 @@
+.npa__blocks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.npa__block{
+    width: 23%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    margin-top: 3%;
+}
+.doc_page{
+    width: 70%;
+    padding: 20px;
+}
+.npa__block__title{
+    font-weight: bold;
+    color: #474F64;
+    padding: 10px;
+    transition: 0.5s;
+    margin-bottom: 5%;
+}
+.npa__block:hover > .npa__block__title{
+    color: #14BDEE;
+    transition: 0.5s;
+}
+.godoc{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 20px;
+    background: #14BDEE;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 2%;
+    position: absolute;
+    bottom: 5px;
+}
+.godoc:hover{
+    text-decoration: none;
+    color: white;
+}
+.npa__button{
+    width: 100%;
+    display: flex;
+    margin: 3% 0;
+    justify-content: center;
+}
